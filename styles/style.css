@@ -282,11 +282,11 @@ section 4
     border: 1px solid #941c48;
     border-radius: 20px;
     padding: 20px;
-    transition: width 1s, height 1s, transform 1s;
+    transition: transform 0.5s;
 }
 
 .education-section:hover {
-    transform: translate(50px, 50px) scale(1.1);
+    transform: scale(1.05);
     background-color: palevioletred;
 
 }
@@ -371,4 +371,8 @@ textarea {
 
 .btn-secondary:hover {
     background-color: #941c48;
+}
+
+.icons:hover{
+    color: #941c48;
 }
